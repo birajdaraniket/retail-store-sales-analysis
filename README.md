@@ -13,9 +13,10 @@ To perform end-to-end data analysis on a messy retail dataset using Python, SQL,
 ---
 
 ## 📂 Project Structure
-data/ → raw and cleaned datasets
-scripts/ → Python data cleaning code
-sql/ → SQL analysis queries
+- data/ → raw and cleaned datasets
+- scripts/ → Python data cleaning code
+- sql/ → SQL analysis queries
+- PowerBi Dashboard/ → Power BI dashboard
 
 ---
 
@@ -38,18 +39,28 @@ sql/ → SQL analysis queries
 
 ---
 
-## 🔥 Key Insights
-- Identified top revenue-generating categories
-- Found high-value customers
-- Analyzed monthly sales trends
-- Discovered purchasing behavior patterns
+## 📈 Power BI Dashboard
+- KPI Cards (Total Revenue, Quantity, Orders, AOV)
+- Top Product Identification (dynamic with filters)
+- Sales Trend Analysis (Yearly & Monthly)
+- Category-wise Performance Analysis
+- Payment Method Distribution
+- Interactive Slicers (Date & Category)
 
+---
+
+## 🔥 Key Insights
+- Sales peaked in 2024 before a drop due to partial 2025 data
+- “Butchers” is the top-performing product category
+- Revenue contribution is evenly distributed across payment methods
+- Certain categories contribute significantly to overall revenue
+- Identified high-value customers and purchasing patterns
 ---
 
 ## 🚀 Status
 ✔ Data Cleaning Completed  
 ✔ SQL Analysis Completed  
-⏳ Power BI Dashboard (Next Step)
+✔ Power BI Dashboard Completed
 
 ---
 
