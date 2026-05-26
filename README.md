@@ -1,39 +1,57 @@
-# 🛒 Retail Sales Data Analysis Project
+# 📊 Retail Store Sales Analysis Project
 
-## 📌 Project Overview
-This project focuses on cleaning and analyzing a messy retail sales dataset using Python (Pandas), SQL, and Power BI.
-
----
-
-## ⚠️ Problems in Dataset
-- Missing values in multiple columns  
-- Incorrect data types (numbers stored as text)  
-- Invalid entries (e.g., "abc", "??")  
-- Inconsistent date formats  
-- Incomplete total spent values  
-
----
-
-## 🧹 Data Cleaning (Python - Pandas)
-- Handled missing values using fillna()  
-- Converted columns using pd.to_numeric()  
-- Fixed quantity values and ensured integer format  
-- Derived "Total Spent" using Price × Quantity  
-- Processed date column using pd.to_datetime()  
-
----
-
-## 📊 Next Steps
-- SQL analysis (sales insights, trends, top products)  
-- Power BI dashboard for visualization  
+## 🧠 Objective
+To perform end-to-end data analysis on a messy retail dataset using Python, SQL, and Power BI.
 
 ---
 
 ## 🛠 Tools Used
 - Python (Pandas)
-- SQL
-- Power BI
+- SQL (MySQL)
+- Power BI (Dashboard)
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
+data/ → raw and cleaned datasets
+scripts/ → Python data cleaning code
+sql/ → SQL analysis queries
+
+---
+
+## 🧹 Data Cleaning (Python)
+- Handled missing values
+- Converted incorrect data types
+- Fixed invalid entries (abc, ??, etc.)
+- Standardized date formats
+- Created derived column: Total Spent
+
+---
+
+## 📊 SQL Analysis
+- Total revenue calculation
+- Top selling categories
+- Best customers analysis
+- Monthly sales trends
+- Payment method analysis
+- High value orders filtering
+
+---
+
+## 🔥 Key Insights
+- Identified top revenue-generating categories
+- Found high-value customers
+- Analyzed monthly sales trends
+- Discovered purchasing behavior patterns
+
+---
+
+## 🚀 Status
+✔ Data Cleaning Completed  
+✔ SQL Analysis Completed  
+⏳ Power BI Dashboard (Next Step)
+
+---
+
+## 👨‍💻 Author
+Created by: Aniket Birajdar
